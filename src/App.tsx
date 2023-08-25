@@ -23,7 +23,7 @@ export default () => {
         {showAbout && <About />}
         <Reader />
         <Output />
-        <a className="source" href="https://github.com/drewen/alt1-ritual-disturbance-tracker" target="_blank"><img src="./github-mark-white.png" width="15px" height="15px" /></a>
+        <a className="source" href="https://github.com/calliphone/alt1-disturbance-tracker" target="_blank"><img src="./github-mark-white.png" width="15px" height="15px" /></a>
         <Toggle className="nisimgbutton" onClick={() => setShowAbout(!showAbout)}>
           {showAbout ? "x" : "?"}
         </Toggle>
